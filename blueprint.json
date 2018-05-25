@@ -1,0 +1,59 @@
+{
+  "appIconURL": "https://en.wikipedia.org/wiki/Bluemix#/media/File:IBM_Bluemix_logo.svg",
+  "checklist": [
+    {
+      "label": "Complete the prerequisites",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#before-you-begin"
+    },
+    {
+      "label": "Optional: Add services",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#add-services"
+    },
+    {
+      "label": "Generate your project code",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#generate-code"
+    },
+    {
+      "label": "Begin working on your app",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#code"
+    },
+    {
+      "label": "Build and run the app locally",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#build-run"
+    },
+    {
+      "label": "Deploy to the cloud",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#deploy"
+    }
+  ],
+  "description": "Demo Things",
+  "name": "JNEE Demo",
+  "previewURLs": [],
+  "type": "WEB",
+  "tags":["devex"],
+  "generators": {
+    "node" : ["generator-starterkit-content-downloader", "generator-ibm-cloud-enablement", "generator-ibm-service-enablement", "generator-readme"]
+  },
+  "generatorOptions": {
+      "generator-starterkit-content-downloader":{
+        "version": "0.x.x",
+        "scope": "@arf"
+      },
+     "generator-readme": {
+      "scope": "@arf",
+      "options": {
+        "appType": "WEB",
+        "framework": "None"
+      }
+    },
+    "generator-ibm-cloud-enablement": {
+      "options": {
+        "port": "3000"
+      }
+    },
+    "generator-ibm-service-enablement": {}
+  },
+  "thumbnailURL": "https://en.wikipedia.org/wiki/Bluemix#/media/File:IBM_Bluemix_logo.svg",
+  "requiredCapabilities": [],
+  "email": "cloud@ibm.com"
+}
